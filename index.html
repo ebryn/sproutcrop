@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/bpm_styles.css" type="text/css" media="screen" charset="utf-8" />
+
+    <title>sproutcrop</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=0.9,user-scalable=no" />
+  </head>
+  <body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+    <div id="screen">
+      <!--<div id="cropbox"></div>-->
+      <script type="text/html">
+        {{view App.CanvasImage}}
+      </script>
+      <div id="toolbar">
+        <img src="use_button.png" onclick="App.controller.crop()">
+      </div>
+    </div>
+    <div id="output" style="display: none">
+      <p>Your cropped image <button onclick="App.controller.reset()">Try again</button></p>
+      <p><a href="../index.html#review">Back to app</a></p>
+      <img id="croppedImage" width="320" height="182">
+      
+    </div>
+  </body>
+
+  <script type="text/javascript" src="assets/bpm_libs.js"></script>
+  <script>
+    spade.require('sproutcrop');
+  </script>
+</html>

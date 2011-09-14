@@ -1,0 +1,57 @@
+/* ===========================================================================
+   BPM Combined Asset File
+   MANIFEST: TransformJS (1.0.beta.2) handlebars (1.0.0.beta.3) jquery (1.6.2) spade (1.0.0.5) sproutcore (2.0.beta.3) sproutcore-handlebars (2.0.beta.3) sproutcore-handlebars-format (2.0.beta.3) sproutcore-metal (2.0.beta.3) sproutcore-runtime (2.0.beta.3) sproutcore-touch (2.0.beta) sproutcore-views (2.0.beta.3) sproutcrop ()
+   This file is generated automatically by the bpm (http://www.bpmjs.org)
+   =========================================================================*/
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+}
+
+#screen {
+  //border: 1px solid #ccc;
+  width: 318px;
+  height: 460px;
+}
+
+#image {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#cropbox {
+  position: absolute;
+  top: 112px;
+  left: 0;
+  width: 316px;
+  height: 180px;
+  border: 2px solid rgb(172, 172, 172);
+  z-index: 2;
+}
+
+#scale {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+
+#toolbar {
+  background: url(/toolbar.png);
+  width: 320px;
+  height: 53px;
+  position: relative;
+}
+
+#toolbar img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

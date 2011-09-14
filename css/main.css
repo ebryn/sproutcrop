@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+}
+
+#screen {
+  //border: 1px solid #ccc;
+  width: 318px;
+  height: 460px;
+}
+
+#image {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#cropbox {
+  position: absolute;
+  top: 112px;
+  left: 0;
+  width: 316px;
+  height: 180px;
+  border: 2px solid rgb(172, 172, 172);
+  z-index: 2;
+}
+
+#scale {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+
+#toolbar {
+  background: url(/toolbar.png);
+  width: 320px;
+  height: 53px;
+  position: relative;
+}
+
+#toolbar img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
